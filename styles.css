@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e0d4;
+    margin: 0;
+    padding: 41px;
+    background-image: url(background.png);
+    background-repeat: repeat;
+    height: 100%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    text-align: end;
+}
+
+input[type="text"] {
+    text-align: end;
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#imageContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#downloadLink {
+    display: none;
+    margin-top: 10px;
+}
+
+canvas {
+    display: none; /* Hide canvas initially */
+}
+
+.hidden{
+    display: none;
+
+}
+/* Add this CSS code to your styles.css file */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green color */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.button-link:hover {
+    background-color: #45a049; /* Darker green color on hover */
+}
+header{
+    width: 100%;
+    top: 0;
+    max-width: 1115px;
+    margin: auto;
+    display: block;
+    margin-top: -47px;
+    margin-bottom: -10px;
+    z-index: -1;
+    position: relative;
+}
+.lights{
+    width: 100%;
+    top: 0;
+    max-width: 1115px;
+}
+.end{
+    width:100%;
+    position: fixed;
+    bottom:0;
+    z-index: -1;
+}
+#imgend{
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rakkas-regular {
+    font-family: "Rakkas", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+  margin-top: 65px;
+
+  }
+  
+.background{
+    height: 100%;
+    margin: 0 10px;
+    display: inline;
+   position: absolute;
+   z-index: -2;
+}
+.border{
+  position: fixed;
+  top: 0;
+  max-width: 30px;
+  background-image: url(border.png);
+  z-index: 5;
+  width: 5%;
+  height: 100%;
+
+}
+.border1{
+    left: 0;}
+
+.border2{
+    right: 0;
+}
+
+.logo{
+    width: 69px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
